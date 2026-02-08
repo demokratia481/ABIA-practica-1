@@ -1,0 +1,7 @@
+p0-tutoriales/
+README*
+*.bat
+*.sh
+p1-busquedas/data
+p1-busquedas/img
+p1-busquedas/__pycache__
