@@ -3,3 +3,4 @@ README*
 *.bat
 p1-busquedas/__pycache__
 p1-busquedas/.ipynb_checkpoints
+*.ipynb filter=strip-notebook-output  
