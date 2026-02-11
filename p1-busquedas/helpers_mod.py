@@ -43,7 +43,8 @@ def report(searchers, problems, verbose=True):
             counts = prob._counts; 
             counts.update(actions=len(soln), cost=soln.path_cost)
             total_counts += counts
-            if verbose: report_counts(counts, str(p)[:40])
+            if verbose: 
+                report_counts(counts, str(p)[:40])
         report_counts(total_counts, 'TOTAL\n')
         
 def report_counts(counts, name):
